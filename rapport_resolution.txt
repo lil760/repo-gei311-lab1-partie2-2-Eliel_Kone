@@ -8,3 +8,20 @@ Q12) Historique des commits locaux (Membre B) :
 * 3606879 B: Injection volontaire de la ligne 'erreur injectée' dans textA.txt (pour le labo)
 * 317b30d B: Ajout Dossier_B/textB.txt (collaboration avec A)
 
+---------------------------------------------
+Partie 2 – Situation 2 : Issue & Correction (Résumé)
+
+Issue (A) :
+- Fichier : Dossier_A/textA.txt
+- Problème : ligne 'erreur injectée' indésirable
+- Attendu : 'labo 1, gestion de version, Eliel_Kone'
+
+Analyse (B) :
+- Commit problématique : 3606879ab63bb2e3fb640bead87533fffb4474d8
+- Dernière version fonctionnelle : 317b30df50a6914d9b4a06ff5ef1d0812c5edcc5
+
+Correction :
+- Stratégie : git revert (historique préservé)
+- Revert appliqué : fabd524
+- Etat final : Dossier_A/textA.txt = 'labo 1, gestion de version, Eliel_Kone'
+
