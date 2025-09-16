@@ -1,0 +1,10 @@
+Rapport – Situation 2 (Q12)
+---------------------------------------------
+
+Q12) Historique des commits locaux (Membre B) :
+(commande: git log --oneline --graph --decorate --author="Theresa" )
+* fabd524 (HEAD -> main, origin/main, origin/HEAD) Revert: retire la ligne 'erreur injectée' de Dossier_A/textA.txt (corrige l’issue)
+* 634e063 B: Ajout Dossier_B/textB2.txt (autre changement de B)
+* 3606879 B: Injection volontaire de la ligne 'erreur injectée' dans textA.txt (pour le labo)
+* 317b30d B: Ajout Dossier_B/textB.txt (collaboration avec A)
+
